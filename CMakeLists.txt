@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 set(PROJECT_NAME
-        grfblocks)
+        myntlocks)
 
 
 project(${PROJECT_NAME})
@@ -15,7 +15,7 @@ endif()
 
 
 if (NOT MONERO_DIR)
-    set(MONERO_DIR ~/monero)
+    set(MONERO_DIR ~/latestv1.0.0)
 endif()
 
 message(STATUS MONERO_DIR ": ${MONERO_DIR}")
