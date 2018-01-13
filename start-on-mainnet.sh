@@ -5,11 +5,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 pushd $DIR
 
-grfblocks \
+myntblocks \
     --enable-emission-monitor 
 #    --port 8082 \ # port 8081 opened by default
-#    --bc-path <path-to-node-data-dir>/lmdb \ # default path is ~/.graft/lmdb
-#    --deamon-url=localhost:18981            # default daemon RPC endpoint is localhost:18981
+    --bc-path ~/.mynt/lmdb \ # default path is ~/.graft/lmdb
+    --daemon-url=localhost:24091            # default daemon RPC endpoint is localhost:18981
 
 popd
 
